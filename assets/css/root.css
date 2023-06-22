@@ -1,0 +1,26 @@
+/*Inserindo variavel de cores*/
+:root {
+    --cor-de-fundo: #01080D;
+    --cor-dos-titulos: #2EDFF2;
+    --cores-dos-p-h2: #D0EFF2;
+    --cor-texto-no-fundo-branco: #01080D;
+
+    --roboto: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cores-dos-p-h2);
+}

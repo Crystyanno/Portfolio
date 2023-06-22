@@ -1,0 +1,44 @@
+--cor-de-fundo: #01080D;
+--cor-dos-titulos: #2EDFF2;
+--cores-dos-p-h2: #D0EFF2;
+--cor-texto-no-fundo-branco: #01080D;
+
+--roboto: 'Roboto Condensed', sans-serif;
+
+
+SOBRE MIM
+
+Olá, eu me chamo Crystyanno Souza, eu entrei no mundo da T.I em 2003 quando eu estava fazendo um curso de informática básico, nesta época eu tinha 17 anos, logo depois entrei para o serviço militar e acabei deixando de lado área da T.I.
+Logo depois em 2010 iniciei a minha graduação em "Bacharel de Sistemas na Faculdade de Negócio e Tecnologia - FACNET", com a conclusão do curso superior em dezembro de 2014, após a formação tive algumas atuações na área em suporte técnico ao mudar de estado tive que procurar trabalho que não foram na minha área de formação, até retomar os trabalhos como técnico de suporte a caixas eletrônicos entre outros.
+Em 2020 com a chegada da pandemia tive o meu contrato rescindido e, mais uma vez parei com os estudos para procurar novas fontes de renda hoje atualmente sou motorista de aplicativo “UBER” e aproveitei o tempo vago para retomar os estudos atualmente estudo front-end, quero aprender back-end e BI porque assim serei um bom profissional com capacidade de criar aplicações com design e performance intuitivas e atreante.
+
+SKILLS
+
+html5
+css3 js
+github
+
+HOBBIES
+
+No meu tempo livre gosto de assistir filmes, series e documentários, além disso gosto de praticar esportes corrida de rua, futebol, crossfit.
+
+FORMAÇÃO ACADÊMICA
+
+Manuteção de computadores
+Bacharel em Sistemas
+formação em Front-end -  Em andamento - Alura
+
+
+PROJETOS
+
+ALURA 
+Encripitador de texto
+Barbearia Alura
+
+PROJETOS PESSOAL
+
+Feira livre
+Tecnologia Acessivel para todos
+
+contrato
+
