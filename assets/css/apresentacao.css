@@ -1,11 +1,13 @@
 .apresetacao {
     display: flex;
-  
 }
 
-.apresetacao-curta {
-    justify-content: space-between;
-    justify-content: space-between;
+.apresetacao h1 {
+    color: var(--cor-dos-titulos);
+}
+
+.apresetacao p {
+    color: var(--cores-dos-p-h2);
 }
 
 .foto-perfil {

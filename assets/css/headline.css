@@ -6,4 +6,11 @@
     text-align: center;
     padding: 50px;
     letter-spacing: 2px;
+    color: var(--cor-dos-titulos);
+}
+
+.headline-p {
+    font-size: 1.0rem;
+    color: var(--cores-dos-p-h2);
+    text-align: center;
 }
