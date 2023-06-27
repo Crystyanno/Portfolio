@@ -1,0 +1,14 @@
+.apresetacao {
+    display: flex;
+  
+}
+
+.apresetacao-curta {
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+.foto-perfil {
+    width: 400px;
+    border-radius: 700px;
+}
