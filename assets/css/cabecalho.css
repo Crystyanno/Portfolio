@@ -1,4 +1,5 @@
 .cabecalho {
+    background: var(--cor-de-fundo);
     width: 100%;
 	position: fixed;
 	display:flex;

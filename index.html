@@ -15,6 +15,7 @@
     <link href="assets/css/menu/menu.css" rel="stylesheet">
     <link href="assets/css/headline.css" rel="stylesheet">
     <link href="assets/css/apresentacao.css" rel="stylesheet">
+    <link href="assets/css/contato.css" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho  e Menu -->
@@ -33,17 +34,17 @@
     </header>
     <!-- Apresentação -->
     <section class="apresetacao">
-       <div class="apresetacao-curta">
+       <div class="apresetacao-container">
             <h1>Olá, meu nome é Crystyanno A. Souza</br>
                 Desenvolver Front-end
             </h1>
             <p>Sou estudante de front-end dedicado em busca de desenvolver minhas habilidades em programação.</p>
             <img class="foto-perfil" src="assets/img/Foto-perfil.svg" alt="Minha foto">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/crystyanno-souza/" alt="Linkedim">Linkedim</a></li>
-                <li><a href="https://github.com/Crystyanno" alt="github">GitHub</a></li>
-                <li><a href="#" alt="">Curriculo</a></li>
-                <li><a href="https://www.instagram.com/crystyanno/" alt="Instagram">Instagram</a></li>
+            <ul class="apresentacao-list">
+                <li class="apresentacao-item"><a href="https://www.linkedin.com/in/crystyanno-souza/" alt="Linkedim">Linkedim</a></li>
+                <li class="apresentacao-item"><a href="https://github.com/Crystyanno" alt="github">GitHub</a></li>
+                <li class="apresentacao-item"><a href="#" alt="">Curriculo</a></li>
+                <li class="apresentacao-item"><a href="https://www.instagram.com/crystyanno/" alt="Instagram">Instagram</a></li>
             </ul>
            
        </div>
@@ -109,24 +110,25 @@
     <!-- Contato -->
     <section class="contato">
         <div class="headline">Contato</div>
-        <img src="#" >
-        <div>
-           <input name="name" placeholder="Nome" class="contato-item">
-           <label for="name" class="contato-item">Nome</label>
-        </div>
-        <div>
-            <input name="email" placeholder="E-mail" class="contato-item">
-            <label for="email" class="contato-item">E-mail</label>
-        </div>
-        <div>
-            <input name="subject" placeholder="Assunto" class="contato-item">
-            <label for="subject" class="contato-item">Assunto</label>
-        </div>
-        <div>
-            <textarea name="menssgem" placeholder="Menssagem" class="contato-item"></textarea>
-            <label for="menssgem" class="contato-item">Menssagem</label>
-        </div>
-        <button type="submit" class="btn">Enviar Menssagem</button>
+        <form>
+            <div>
+                <input name="name" placeholder="Nome" class="contato-item">
+                <label for="name" class="contato-item">Nome</label>
+                </div>
+            <div>
+                <input name="email" placeholder="E-mail" class="contato-item">
+                <label for="email" class="contato-item">E-mail</label>
+            </div>
+            <div>
+                <input name="subject" placeholder="Assunto" class="contato-item">
+                <label for="subject" class="contato-item">Assunto</label>
+            </div>
+            <div>
+                <textarea name="menssgem" placeholder="Menssagem" class="contato-item"></textarea>
+                <label for="menssgem" class="contato-item">Menssagem</label>
+            </div>
+            <button type="submit" class="btn">Enviar Menssagem</button>
+        </form>
     </section>
     <!-- Rodapé -->
     <footer class="rodape">

@@ -1,5 +1,8 @@
 .apresetacao {
+    background-color: aliceblue;
+    padding: 195px;
     display: flex;
+    justify-content: space-between;
 }
 
 .apresetacao h1 {
