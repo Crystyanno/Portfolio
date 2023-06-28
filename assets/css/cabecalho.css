@@ -13,3 +13,9 @@
     width: auto;
     height: auto;
 }
+
+.rodape {
+    color: var(--cores-dos-p-h2);
+    padding: 30px;
+    text-align: center;
+}
