@@ -1,19 +1,29 @@
 .apresetacao {
-    background-color: aliceblue;
     padding: 195px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.apresetacao-container {
     display: flex;
     justify-content: space-between;
 }
 
 .apresetacao h1 {
-    color: var(--cor-dos-titulos);
+    color: var(--cor-dos-titulos);    
 }
 
 .apresetacao p {
     color: var(--cores-dos-p-h2);
 }
 
+.apresentacao-list {
+    display: flex;
+}
+
 .foto-perfil {
     width: 400px;
     border-radius: 700px;
 }
+
+
