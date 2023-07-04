@@ -2,6 +2,7 @@
     padding: 195px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .apresetacao-container {
@@ -22,7 +23,7 @@
 }
 
 .foto-perfil {
-    width: 400px;
+    width: 290px;
     border-radius: 700px;
 }
 
