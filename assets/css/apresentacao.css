@@ -1,10 +1,14 @@
 .apresetacao {
     padding: 195px;
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
 }
 
 .apresetacao-container {
+    display: flex;
+}
+
+.apresentacao-item {
     display: flex;
     justify-content: space-between;
 }
@@ -15,10 +19,6 @@
 
 .apresetacao p {
     color: var(--cores-dos-p-h2);
-}
-
-.apresentacao-list {
-    display: flex;
 }
 
 .foto-perfil {
