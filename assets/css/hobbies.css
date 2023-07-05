@@ -1,0 +1,16 @@
+.hobbies {
+	width: 100%;
+    background: #eee;
+    padding: 50px;
+}
+
+.hobbies-container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+}
+
+.hobbies-img {
+    width: 30%;
+    padding: auto;
+}

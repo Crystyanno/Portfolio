@@ -1,6 +1,7 @@
 .skills {
     width: 100%;
 	padding: 50px;
+    background: #eee;
 }
 
 .skills-container {
@@ -11,6 +12,5 @@
 }
 
 .img-item {
-    width: 50%;
-    padding: auto;
+    width: 40%;
 }
