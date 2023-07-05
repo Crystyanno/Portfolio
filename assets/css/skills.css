@@ -1,9 +1,16 @@
 .skills {
     width: 100%;
+	padding: 50px;
 }
 
-.skills-img {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+.skills-container {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	padding: 15px;
+}
+
+.img-item {
+    width: 50%;
+    padding: auto;
 }
