@@ -1,0 +1,22 @@
+Estrutura so site
+
+Componentes do cabecalho:
+
+folhas de stylo:
+Cabeçalho, menu, apresentacao e sobre MIM.
+
+Componentes do abaixo:
+
+folhas de stylo:
+Skills e hobbies.
+
+Componentes do abaixo:
+
+folhas de stylo:
+Formação ACADÊMICA e experiencias profissional.
+
+
+Componentes do abaixo:
+
+folhas de stylo:
+contato e rodape.
