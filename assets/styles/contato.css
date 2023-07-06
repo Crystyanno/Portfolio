@@ -1,0 +1,90 @@
+
+.container {
+    z-index: 12;
+    max-width: 1050;
+    width: 100%;
+    border-radius: 12px;
+    margin: 0 20px;
+    box-shadow: 0 5px 10px;
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.content .img-box {
+    max-width: 55%;
+}
+
+.content .img-box img {
+    width: 100%;
+}
+
+.contato-container .topic {
+    font-size: 22px;
+    font-weight: 500;
+    color: #4e8c3c;
+}
+
+.content form {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.content .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.content .input-box input {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 16px;
+    background: #4e8c3c;
+    border: 2px solid transparent;
+    transition: all 0,3s ease;
+}
+
+.content .input-box input:focus,
+.content .input-box input:valid {
+    border-color: #4e8c3c;
+    background: #fff;
+}
+
+.content .input-box label {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    color: #4e8c3c;
+    font-size: 15px;
+    pointer-events: none;
+    transform: translate(-50%);
+    transition:  all 0.3s ease;
+}
+
+.content .input-box input:focus ~ label,
+.content .input-box input:valid ~ label {
+    top: 0;
+    left: 12px;
+    display: 14px;
+    color: #4e8c3c;
+    background: #fff;
+}
+
+.content .menssage-box {
+    min-height: 100%;
+    position: relative;
+}
+
+.content .menssage-box textarea {
+
+}
