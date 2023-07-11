@@ -1,6 +1,6 @@
 .rodape {
     background: var(--cor-de-fundo);
-    color: var(--cor-dos-titulos);
+    color: var(--cores-dos-p-h2);
     text-align: center;
     padding: 1.5625rem 5rem;
     text-transform: lowercase;
