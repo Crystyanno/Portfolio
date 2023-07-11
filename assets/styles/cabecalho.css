@@ -1,8 +1,9 @@
 .cabecalho {
     align-items: center;
-    background: var();
+    background: var(--cor-de-fundo);
     display: flex;
     justify-content: space-between;
+    color: var(--cores-dos-p-h2);
 }
 
 @media screen and (min-width: 0) {
