@@ -1,3 +1,7 @@
+body {
+    background: var(--cor-de-fundo);
+}
+
 .cabecalho {
     align-items: center;
     background: var(--cor-de-fundo);
