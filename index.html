@@ -1,11 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Portfolio </title>
+		<link href="assets/styles/reset.css" rel="stylesheet">
+		<link href="assets/styles/root.css" rel="stylesheet">
+		<link href="assets/styles/cabecalho.css" rel="stylesheet">
+		<link href="assets/styles/menu/menu.css" rel="stylesheet">
 </head>
 <body>
-    
+	<!-- Cabeçalho -->
+	 <header class="cabecalho">
+      <nav>
+        <ul class="menu">
+          <li class="lista-item"><a class="link-item" href="#sobre-mim">Sobre mim</a></li>
+          <li class="lista-item"><a class="link-item" href="#skills-e-hobbies">Skills</a></li>
+          <li class="lista-item"><a class="link-item" href="#skills-e-hobbies">Hobbies</a></li>
+          <li class="lista-item"><a class="link-item" href="#formacao-academica">Formação</a></li>
+          <li class="lista-item"><a class="link-item" href="#experiencia-profissional">Projetos</a></li>
+			 	  <li class="lista-item"><a class="link-item" href="#contato">crystyanno.alves@gmail.com</a></li>
+        </ul>
+      </nav>
+   </header>
+	 <!-- Apresentação -->
+	 <section class="apresentacao">
+			<img class="apresentacao-img" src="assets/img/foto-perfil.svg" alt="Foto do crystyann Souza cabelos castanhos claros">
+			<h1 class="apresentacao-titulo">Olá, meu nome é Crystyanno Souza</br> Desenvolvedor Front-end</h1>
+			<p class="apresentacao-descricao">Sou estudante de Front-end em busca de desenvolver minhas habilidades em programação.</p>
+			<div class="apresentacao-container">
+				<ul class="lista-redes-sociais">
+						<li class="item-redes-sociais">
+							<a href="" class="link-redes-sociais">Github</a>
+						</li>
+						<li class="item-redes-sociais">
+							<a href="" class="link-redes-sociais">Linkedin</a>
+						</li>
+						<li class="item-redes-sociais">
+							<a href="" class="link-redes-sociais">Currículo</a>
+						</li>
+						<li class="item-redes-sociais">
+							<a href="" class="link-redes-sociais">Instagram</a>
+						</li>
+				</ul>
+			</div>
+	 </section>
+	 <!-- Apresentação -->
+	 <section class="sobre-mim">
+	 		<div class="headline">Sobre mim</div>
+	 		<p class="sobre-mim-descricao">Olá, eu me chamo Crystyanno Souza, eu entrei no mundo da T.I em 2003 quando eu estava fazendo um curso de informática básico, nesta época eu tinha 17 anos, logo depois entrei para o serviço militar e acabei deixando de lado área da T.I.</p>
+			<p class="sobre-mim-descricao">Logo depois em 2010 iniciei a minha graduação em "Bacharel de Sistemas na Faculdade de Negócio e Tecnologia - FACNET", com a conclusão do curso superior em dezembro de 2014, após a formação tive algumas atuações na área em suporte técnico ao mudar de estado tive que procurar trabalho que não foram na minha área de formação, até retomar os trabalhos como técnico de suporte a caixas eletrônicos entre outros.</p>
+			<p class="sobre-mim-descricao">Em 2020 com a chegada da pandemia tive o meu contrato rescindido e, mais uma vez parei com os estudos para procurar novas fontes de renda hoje atualmente sou motorista de aplicativo “UBER” e aproveitei o tempo vago para retomar os estudos atualmente estudo front-end, quero aprender back-end e BI porque assim serei um bom profissional com capacidade de criar aplicações com design e performance intuitivas e atreante.</p>
+	 </section>
+	 <!-- Skills -->
+	 <section class="skills">
+			<div class="headline">Skills</div>
+				<div class="skills-container">
+
+				</div>
+	 </section>
+	 <!-- Hobbies -->
+	 <section class="hobbies">
+		<div class="headline">Hobbies</div>
+			<div class="hobbies-container">
+				
+			</div>
+	 </section>
+	 <!-- Formação Academica -->
+	 <section class="formacao-academica">
+			<div class="headline">Formação Academica</div>
+				<div class="formacao-academica-container">
+					
+				</div>
+	 </section>
+	 <!-- Experiência Profissional -->
+	 <section class="experiencia-profissional">
+			<div class="headline">Experiência Profissional</div>
+				<div class="experiencia-profissional-container">
+
+				</div>
+	 </section>
+	 <!-- Contato -->
+	 <section class="contato">
+			<img src="assets/img/contact.svg" alt="" class="contato-img">
+			<div class="headline">Contato</div>
+			<h2 class="contato-descricao">Quer entrar em contato comigo? <br /> Preencha o formulário ao lado e
+				entrarei em contato o mais rápido possível</h2>
+			<form action="" class="formulario" data-formulario="">
+					<fieldset>
+						<label for="nome"></label>
+							<input name="nome" class="contato-input" type="text" id="nome" required placeholder="Nome"
+									minlength="3" maxlength="50">
+							<span class="mensagem-erro"></span>
+					</fieldset>
+					<fieldset>
+						<label for="email"></label>
+						<input name="email" class="contato-input" type="email" id="email" required placeholder="E-mail"
+								minlength="6">
+						<span class="mensagem-erro"></span>
+					</fieldset>
+					<fieldset>
+					<label for="assunto"></label>
+					<input name="assunto" class="contato-input" type="text" id="assunto" required
+							placeholder="Assunto" maxlength="50">
+					<span class="mensagem-erro"></span>
+					</fieldset>
+					<fieldset>
+					<label for="mensagem"></label>
+					<textarea name="mensagem" class="contato-textarea" id="mensagem" cols="70" rows="10" required
+							placeholder="Mensagem" minlength="5" maxlength="300"></textarea>
+					<!-- estava perdendo meu tempo com esse textarea porque o fechamento tem que estar na mesma linha que a abertura, senão não aparece o placeholder e pode clicar e digitar em qualquer lugar da area -->
+					<span class="mensagem-erro"></span>
+					</fieldset>
+					<input class="contato-button" type="submit" value="Enviar mensagem" id="submit">
+					<span class="mensagem-erro"></span>
+			</form>
+	 </section>
+	 <!-- Rodapé -->
+	<footer id="footer">
+		<p>&copy; Copyright 2023 - Todos os direitos reservados.</p>
+		<p>Desenvolvido por Crystyanno Souza.</p>
+	</footer>
 </body>
 </html>
