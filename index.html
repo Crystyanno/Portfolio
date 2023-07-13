@@ -8,6 +8,8 @@
 		<link href="assets/styles/root.css" rel="stylesheet">
 		<link href="assets/styles/cabecalho.css" rel="stylesheet">
 		<link href="assets/styles/menu/menu.css" rel="stylesheet">
+		<link href="assets/styles/headline.css" rel="stylesheet">
+		<link href="assets/styles/footer.css" rel="stylesheet">
 </head>
 <body>
 	<!-- Cabeçalho -->
@@ -31,16 +33,16 @@
 			<div class="apresentacao-container">
 				<ul class="lista-redes-sociais">
 						<li class="item-redes-sociais">
-							<a href="" class="link-redes-sociais">Github</a>
+							<a href="https://github.com/Crystyanno" class="link-redes-sociais">Github</a>
 						</li>
 						<li class="item-redes-sociais">
-							<a href="" class="link-redes-sociais">Linkedin</a>
+							<a href="https://www.linkedin.com/in/crystyanno-alves-de-souza-1463563b/" class="link-redes-sociais">Linkedin</a>
 						</li>
 						<li class="item-redes-sociais">
 							<a href="" class="link-redes-sociais">Currículo</a>
 						</li>
 						<li class="item-redes-sociais">
-							<a href="" class="link-redes-sociais">Instagram</a>
+							<a href="https://www.instagram.com/crystyanno/" class="link-redes-sociais">Instagram</a>
 						</li>
 				</ul>
 			</div>
@@ -56,33 +58,86 @@
 	 <section class="skills">
 			<div class="headline">Skills</div>
 				<div class="skills-container">
-
+					<ul>
+						<li class="list-item-icons">
+							<img src="" alt=""><p>Html5</p>
+						</li>
+						<li class="list-item-icons">
+							<img src="" alt=""><p>Css3</p>
+						</li>
+						<li class="list-item-icons">
+							<img src="" alt=""><p>JS</p>
+						</li>
+						<li class="list-item-icons">
+							<img src="" alt=""><p>Github</p>
+						</li>
+					</ul>
 				</div>
 	 </section>
 	 <!-- Hobbies -->
 	 <section class="hobbies">
 		<div class="headline">Hobbies</div>
 			<div class="hobbies-container">
-				
+				<ul>
+					<li class="list-item-iconS">
+						<img src="" alt=""><p>Ler livros</p>
+					</li>
+					<li class="list-item-iconS">
+						<img src="" alt=""><p>Assistir séries e filmes</p>
+					</li>
+					<li class="list-item-iconS">
+						<img src="" alt=""><p>Pessear com a família</p>
+					</li>
+					<li class="list-item-iconS">
+						<img src="" alt=""><p>Crossfit</p>
+					</li>
+					<li class="list-item-iconS">
+						<img src="" alt=""><p>Dirigir</p>
+					</li>
+				</ul>
 			</div>
 	 </section>
 	 <!-- Formação Academica -->
 	 <section class="formacao-academica">
 			<div class="headline">Formação Academica</div>
 				<div class="formacao-academica-container">
-					
+					<div class="formacao-academica-istitu">
+						<img src="assets/img/Facnet-Anhanguera.png" alt="Logo Faculdade Anhaguera" class="institu-img">
+						<h3>Bacharesl em Sistemas de Informação</h3>
+						<p>2010 á 2014</p>
+					</div>
+					<div class="formacao-academica-istitu">
+						<img src="assets/img/senac-psg-2021.jpg" alt="Logo do Senac" class="institu-img">
+						<h3>Logica de programação Python</h3>
+						<p>2023</p>
+					</div>
+					<div class="formacao-academica-istitu">
+						<img src="assets/img/Alura.JPG" alt="Logo da Alura ONE" class="institu-img">
+						<h3>Alura - Oracle Next Education F2 T5</h3>
+						<p>Em Andamento</p>
+					</div>
 				</div>
 	 </section>
 	 <!-- Experiência Profissional -->
 	 <section class="experiencia-profissional">
 			<div class="headline">Experiência Profissional</div>
 				<div class="experiencia-profissional-container">
-
+					<div class="experiencias-prin">
+						<img src="" alt="" class="experiencias-img">
+					</div>
+					<div class="experiencia-sec">
+						<h3 class="experiencias-titulo">Decodificador de texto</h3>
+						<p>Challenge Aluara Codificador</p>
+						<div class="experiencia-div-sec">
+							<a href="" class="experiencia-link repositorio"></a>
+							<a href="" class="experiencia-link deploy"></a>
+						</div>
+					</div>
 				</div>
 	 </section>
 	 <!-- Contato -->
 	 <section class="contato">
-			<img src="assets/img/contact.svg" alt="" class="contato-img">
+			<img src="assets/img/contato.png" alt="" class="contato-img">
 			<div class="headline">Contato</div>
 			<h2 class="contato-descricao">Quer entrar em contato comigo? <br /> Preencha o formulário ao lado e
 				entrarei em contato o mais rápido possível</h2>
@@ -100,24 +155,23 @@
 						<span class="mensagem-erro"></span>
 					</fieldset>
 					<fieldset>
-					<label for="assunto"></label>
-					<input name="assunto" class="contato-input" type="text" id="assunto" required
+						<label for="assunto"></label>
+						<input name="assunto" class="contato-input" type="text" id="assunto" required
 							placeholder="Assunto" maxlength="50">
 					<span class="mensagem-erro"></span>
 					</fieldset>
 					<fieldset>
-					<label for="mensagem"></label>
-					<textarea name="mensagem" class="contato-textarea" id="mensagem" cols="70" rows="10" required
+						<label for="mensagem"></label>
+						<textarea name="mensagem" class="contato-textarea" id="mensagem" cols="70" rows="10" required
 							placeholder="Mensagem" minlength="5" maxlength="300"></textarea>
-					<!-- estava perdendo meu tempo com esse textarea porque o fechamento tem que estar na mesma linha que a abertura, senão não aparece o placeholder e pode clicar e digitar em qualquer lugar da area -->
-					<span class="mensagem-erro"></span>
+						<span class="mensagem-erro"></span>
 					</fieldset>
-					<input class="contato-button" type="submit" value="Enviar mensagem" id="submit">
-					<span class="mensagem-erro"></span>
+						<input class="contato-button" type="submit" value="Enviar mensagem" id="submit">
+						<span class="mensagem-erro"></span>
 			</form>
 	 </section>
 	 <!-- Rodapé -->
-	<footer id="footer">
+	<footer class="footer">
 		<p>&copy; Copyright 2023 - Todos os direitos reservados.</p>
 		<p>Desenvolvido por Crystyanno Souza.</p>
 	</footer>
