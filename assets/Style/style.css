@@ -6,9 +6,9 @@
 }
 
 .caixa-principal {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
-    /*background: var(--cor-de-fundo);*/
+    /*background: var(--cor-fundo);*/
 }
 
 nav {
@@ -17,6 +17,7 @@ nav {
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 30px;
 }
 
 .portfolio {
@@ -26,4 +27,86 @@ nav {
 
 .portfolio span {
     color: var(--cor-span);
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+   display: inline-block;
+   list-style: none;
+   font-size: 25px;
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+li span {
+    color: var(--cor-span);
+}
+
+li:hover {
+    color: var(--cor-titulos);
+    transition: 0,5s;
+}
+
+.apresentacao {
+    display: flex;
+    background-color: black;
+}
+
+h1 {
+    color: var(--cor-titulos);
+    font-size: 45px;
+}
+
+h1 span {
+    color: var(--cor-span);
+}
+
+h3 {
+    color: white;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: black;
+    justify-content: ;
+}
+
+section img {
+    height: 400px;
+    margin-right: 30px;
+
+}
+
+section div h2 {
+    color: var(--cor-titulos);
+    font-size: 75px;
+}
+
+section div p {
+    color: var(--cores-p-h2);
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+section div button {
+    color: var(--cores-p-h2);
+    background: var(--cor-span);
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-span);
+    transition: 0.5s;
 }
