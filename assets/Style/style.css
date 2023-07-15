@@ -6,9 +6,10 @@
 }
 
 .caixa-principal {
+    background: var(--cor-fundo);
     height: 60vh;
     width: 100%;
-    /*background: var(--cor-fundo);*/
+    color: var(--cor-text-fundo-preto);
 }
 
 nav {
@@ -52,7 +53,8 @@ li:hover {
 
 .apresentacao {
     display: flex;
-    background-color: black;
+    flex-direction: row-reverse;
+    background-color: var(--cor-fundo);
 }
 
 h1 {
@@ -73,7 +75,7 @@ section {
     display: flex;
     align-items: center;
     padding: 60px 15%;
-    background-color: black;
+    background-color: var(--cor-fundo2);
     justify-content: ;
 }
 
@@ -109,4 +111,87 @@ section div button:hover {
     background-color: var(--cor-fundo);
     border: 2px solid var(--cor-span);
     transition: 0.5s;
+}
+
+.skills {
+    width: 100%;
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;  
+}
+
+.skills h2 {
+    color: var(--cor-titulos);
+    font-size: 55px;
+    text-align: center;
+}
+
+.card-skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: var(--cor-fundo2);
+    height: 185px;
+    width: 285px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card p {
+    color: var(--cor-titulos);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hobbies {
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;  
+}
+
+.hobbies h2 {
+    color: var(--cor-titulos);
+    font-size: 55px;
+    text-align: center;
+}
+
+.card-hobbies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card--hobbies {
+    background-color: var(--cor-fundo2);
+    height: 185px;
+    width: 285px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.card--hobbies img {
+    height: 100px;
+}
+
+.card--hobbies p {
+    color: var(--cor-titulos);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
