@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Nunito', sans-serif; 
+   font-family: 'Nunito', sans-serif;
 }
 
 .caixa-principal {
@@ -195,3 +195,50 @@ section div button:hover {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.formacao {
+    width: 100%;
+    background-color: var(--cor-fundo2);
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;  
+}
+
+.formacao h2 {
+    color: var(--cor-titulos);
+    font-size: 55px;
+    text-align: center;
+}
+
+.card-formacao {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.formacao-container {
+    background-color: var(--cor-fundo);
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.formacao-container h4 {
+    color: var(--cor-text-fundo-preto);
+}
+
+.formacao-container img {
+    height: 100px;
+}
+
+.formacao-container p {
+    color: var(--cor-titulos);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
