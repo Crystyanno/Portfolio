@@ -242,3 +242,21 @@ section div button:hover {
     cursor: pointer;
 }
 
+
+
+
+
+
+.footer {
+    background: var(--cor-fundo);
+    align-items: center;
+    text-align: center;
+    color: var(--cor-text-fundo-preto);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.footer span {
+    color: var(--cor-span);
+}
+
