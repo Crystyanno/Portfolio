@@ -218,8 +218,7 @@ section div button:hover {
 
 .formacao-container {
     background-color: var(--cor-fundo);
-    height: 365px;
-    width: 335px;
+    width: 385px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
