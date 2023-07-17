@@ -7,7 +7,7 @@
 
 .caixa-principal {
     background: var(--cor-fundo);
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     color: var(--cor-text-fundo-preto);
 }
@@ -75,7 +75,6 @@ section {
     display: flex;
     align-items: center;
     padding: 60px 15%;
-    background-color: var(--cor-fundo2);
     justify-content: ;
 }
 
@@ -91,7 +90,7 @@ section div h2 {
 }
 
 section div p {
-    color: var(--cores-p-h2);
+    color: var(--cor-text-fundo-branco);
     margin-top: 15px;
     margin-bottom: 60px;
 }
