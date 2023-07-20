@@ -2,7 +2,9 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   outline: none;
    font-family: 'Nunito', sans-serif;
+   
 }
 
 .caixa-principal {
@@ -69,7 +71,6 @@ h1 span {
 h3 {
     color: white;
 }
-
 
 section {
     display: flex;
@@ -148,7 +149,7 @@ section div button:hover {
 }
 
 .card p {
-    color: var(--cor-titulos);
+    color: var(--cor-text-fundo-preto);
     text-align: center;
     font-size: 15px;
     padding: 10px 20px;
@@ -191,7 +192,7 @@ section div button:hover {
 }
 
 .card--hobbies p {
-    color: var(--cor-titulos);
+    color: var(--cor-text-fundo-preto);
     text-align: center;
     font-size: 15px;
     padding: 10px 20px;
@@ -237,7 +238,7 @@ section div button:hover {
 }
 
 .formacao-container p {
-    color: var(--cor-titulos);
+    color: var(--cor-text-fundo-preto);
     text-align: center;
     font-size: 15px;
     padding: 10px 20px;
@@ -273,7 +274,7 @@ section div button:hover {
 }
 
 .card-item img {
-    height: 600px;
+    height: 500px;
 }
 
 .card-item h3 {
@@ -301,7 +302,67 @@ section div button:hover {
     background-color: var(--cor-fundo);
     border: 2px solid var(--cor-span);
 }
+ 
+.contato {
+    background-color: var(--cor-fundo2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 5px;
+    border-radius: 1px;
+    box-shadow: 5px 5px 15px;
+}
 
+.contato h2 {
+    color: var(--cor-titulos);
+    font-size: 55px;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+form {
+    width: 40%;
+    min-width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(85, 84, 84, 0.3);
+    margin: 100px auto;
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    min-width: 320px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--cor-span);
+    color: var(--cor-text-fundo-preto);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-span);
+    transition: 0.5s;
+}
 
 
 .footer {
