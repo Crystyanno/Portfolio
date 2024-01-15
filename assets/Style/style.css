@@ -1,0 +1,73 @@
+/* ESTILO GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Roboto);
+}
+
+body{
+    background-color: var(--cor-fundo);
+    height:100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--cor-titulos);
+    font-size: 35px;
+}
+
+.logo span {
+    color: var(--cor-span);
+}
+
+header a{
+    color: var(--cores-p-h2);
+    text-decoration:none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--cor-span);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header a:hover{
+    color: var(--cor-titulos);
+    transform: scale(1.05);
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px var(--cor-span);
+}
