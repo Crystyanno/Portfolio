@@ -32,6 +32,21 @@ body{
     transition: 0.2s;
 }
 
+h2.headline{
+    color: var(--cor-titulos);
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.headline span{
+    color: var(--cor-span);
+}
+
+ button:hover{
+    box-shadow: 0px 0px 8px var(--cor-span);
+    transform: scale(1.05);
+}
+
 /* ESTILO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -73,11 +88,6 @@ header a:hover{
     transform: scale(1.05);
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px var(--cor-span);
-    transform: scale(1.05);
-}
-
 /* ESTILO TOPO DO SITE */
 section.topo-do-site{
     padding: 40px 4%;
@@ -116,4 +126,80 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: var(--cores-p-h2);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.w05);
+    box-shadow: 0 0 8px #fff;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: var(--cor-span);
+}
+
+.especialidades .especialidades-box h3{
+    color: var(--cor-titulos);
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: var(--cor-titulos);
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: var(--cor-span);
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    color: var(--cores-p-h2);
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--cor-span);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
 }
