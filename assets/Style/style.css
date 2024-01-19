@@ -120,7 +120,7 @@ header nav.menu-desktop a:hover {
     width: 70%;
 }
 
-.menu-mobile.abrir-menu ~ .overlay-menu{
+.menu-mobile.abrir-menu ~ .overlay-menu-mobile{
     display: block;
 }
 
