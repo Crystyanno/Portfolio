@@ -7,6 +7,10 @@
     font-family: var(--Roboto);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--cor-fundo);
     height: 100vh;
@@ -57,6 +61,10 @@ form .btn-enviar input:hover {
     color: var(--cor-span);
 }
 
+.btn-abrir-menu{
+    display: none;
+}
+
 /* ESTILO CABEÇALHO */
 header {
     padding: 40px 4%;
@@ -103,6 +111,7 @@ header nav.menu-desktop a:hover {
     color: var(--cor-span);
     font-size: 40px;
 }
+
 
 .menu-mobile{
     background-color: var(--cor-fundo);
@@ -399,6 +408,10 @@ footer .line-footer p span {
 
 /* ESTILO DO RESPONSIVO */
 @media screen and (max-width: 1020px) {
+
+    .btn-abrir-menu{
+        display: block;
+    }
 
     /* CLASSE GERAIS */
     .flex {
