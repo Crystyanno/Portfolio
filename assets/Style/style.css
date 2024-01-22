@@ -150,7 +150,7 @@ header nav.menu-desktop a:hover {
     background-color: var(--cor-span);
 }
 
-.overlay-menu-mobile{
+.overlay-menu{
     background-color: var(--overlay);
     width: 100%;
     height: 100%;
