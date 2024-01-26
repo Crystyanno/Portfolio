@@ -65,6 +65,15 @@ form .btn-enviar input:hover {
     display: none;
 }
 
+.link-topo{
+    font-size: 45px;
+    color: var(--cor-span);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
 /* ESTILO CABEÇALHO */
 header {
     padding: 40px 4%;
