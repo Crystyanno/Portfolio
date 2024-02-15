@@ -16,11 +16,12 @@ Embora tenha seguido a estrutura proposta pelo desafio, personalizei o design pa
 
 * Inclusão do botão voltar ao topo localizado na parte inferior ao lado direito proximo ao rodapê;
 
-OBS: O projeto foi desenvolvido de forma responsiva, adaptando-se a diferentes tamanhos de telas e dispositivos.
+# OBS: 
+O projeto foi desenvolvido de forma responsiva, adaptando-se a diferentes tamanhos de telas e dispositivos.
 
 # Visite o projeto:
 
-*link: https://crystyanno.github.io/Portfolio/
+* link: https://crystyanno.github.io/Portfolio/
 
 # Molibe:
 
