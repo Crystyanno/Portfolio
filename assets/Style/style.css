@@ -254,6 +254,10 @@ section.especialidades .flex {
     margin: 15px 0;
 }
 
+.especialidades .especialidades-box p {
+    text-align: justify;
+}
+
 /* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
