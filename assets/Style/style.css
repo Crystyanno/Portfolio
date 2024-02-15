@@ -243,7 +243,8 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box i {
-       font-size: 70px;
+    align-items: center;
+    font-size: 70px;
     color: var(--cor-titulos);
 }
 
