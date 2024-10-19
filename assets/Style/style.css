@@ -339,7 +339,7 @@ section.portfolio .flex {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    color: var(--cor-titulos);
+    color: var(--cor-title-projeto);
     opacity: 0;
     transition: 5s;
 }
