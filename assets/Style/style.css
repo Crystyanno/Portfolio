@@ -419,6 +419,9 @@ footer .line-footer p {
 footer .line-footer p span {
     color: var(--cor-span);
 }
+footer a{
+    text-decoration: none;
+}
 
 /* ESTILO DO RESPONSIVO */
 @media screen and (max-width: 1020px) {
